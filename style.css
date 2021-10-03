@@ -1,0 +1,192 @@
+#left {
+  position: absolute;
+  left: calc(50% + 80px);
+  right: 0;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  background-position: 100%;
+  top: 0;
+  background-color: hsla(26, 5%, 70%, 0.2);
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-weight: 300;
+  color: #282c3f;
+}
+#logo {
+  position: absolute;
+  margin: 3%;
+  padding: 4px;
+}
+.log {
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: right;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 2rem;
+  color: #000;
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+}
+.log2 {
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: right;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 2rem;
+  color: #000;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+}
+a,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+.name {
+  margin-top: 140px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+  text-indent: 20px;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  display: flex;
+}
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+.xyz {
+  font-size: 24px;
+  font-weight: 300;
+  width: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  color: #686b78;
+  margin: 20px;
+}
+span::before {
+  content: "Hungery?";
+  animation: animate infinite 9s;
+}
+@keyframes animate {
+  0% {
+    content: "Hungery?";
+  }
+  20% {
+    content: "Unexpected guests?";
+  }
+  40% {
+    content: "Cooking gone wrong?";
+  }
+  60% {
+    content: "Movie marathon?";
+  }
+  80% {
+    content: "Game night?";
+  }
+  100% {
+    content: "Late night at office?";
+  }
+}
+.bar {
+  width: 50%;
+  height: 50px;
+  margin: 20px;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+input {
+  text-rendering: auto;
+  letter-spacing: normal;
+  color: (black, white);
+  word-spacing: normal;
+  line-height: normal;
+  text-indent: 0px;
+  display: inline-block;
+  cursor: text;
+  text-align: start;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: (rgb(118, 118, 118));
+  border-image: initial;
+  text-transform: none;
+  appearance: auto;
+  margin: 0em;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.pqr {
+  color: #535665;
+  position: absolute;
+  right: 150px;
+  top: 10px;
+  padding: 12px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: -0.35px;
+}
+.popular {
+  font-weight: 400;
+  font-size: 15px;
+  color: #a9abb2;
+  margin: 30px 0 10px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  text-indent: 20px;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
